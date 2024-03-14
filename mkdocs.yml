@@ -41,8 +41,8 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Mudar para modo escuro
-      primary: green
-      accent: deep purple
+      primary: light blue
+      accent: indigo
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -50,8 +50,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Mudar para modo Claro
-      primary: green
-      accent: lime
+      primary: light blue
+      accent: indigo
 
   icon:
     admonition:
