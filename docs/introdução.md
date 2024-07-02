@@ -1,4 +1,4 @@
-## ME-Laser-CNC
+## MY-Laser-CNC
 ### What is ME-Laser CNC?
 This project started out as a solution to solve a problem at the company where I work at the moment and has since evolved into something that I will share here...
 
