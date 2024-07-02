@@ -1,14 +1,14 @@
-site_name: ME-Laser-CNC
+site_name: MY-Laser-CNC
 
-site_url: "https://gadgetplus.pt/Carbon-FAQS/"
+site_url: "https://my-machines.pt/My-Laser-CNC/"
 site_autor: "Edgar Mata"
 site_description: "Centro de conhecimento Gadget Plus.LDA"
 
-repo_name: "ME-Laser-CNC"
-repo_url: "https://github.com/EdgarMata/ME-Laser-CNC"
+repo_name: "MY-Laser-CNC"
+repo_url: "https://github.com/EdgarMata/MY-Laser-CNC"
 
 copyright: |
-  &copy; 2024 <a href="https://gadgetplus.pt/" target="_blank" rel="noopener">Gadget Plus, LDA</a>
+  &copy; 2024 <a href="https://my-machines.pt/" target="_blank" rel="noopener">Edgar Mata, LDA</a>
 
 theme:
 #  logo: assets/logo.svg
