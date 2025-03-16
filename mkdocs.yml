@@ -1,18 +1,18 @@
 site_name: MY-Laser-CNC
 
-site_url: "https://my-machines.pt/My-Laser-CNC/"
-site_autor: "Edgar Mata"
-site_description: "Centro de conhecimento Gadget Plus.LDA"
+site_url: "https://my-machines.net/My-Laser-CNC/"
+#site_autor: "Edgar Mata"
+site_description: "Centro de conhecimento My Machines"
 
 repo_name: "MY-Laser-CNC"
 repo_url: "https://github.com/EdgarMata/MY-Laser-CNC"
 
 copyright: |
-  &copy; 2024 <a href="https://my-machines.pt/" target="_blank" rel="noopener">Edgar Mata, LDA</a>
+  &copy; 2024 <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a>
 
 theme:
-#  logo: assets/logo.svg
-#  favicon: images/favicon.png
+  logo: assets/mylogo.svg
+  favicon: images/favicon.png
   name: material
   features:
     - navigation.tabs
@@ -25,9 +25,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annotate
     - content.code.copy        
-  languare: pt
+  language: pt
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -107,7 +107,6 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - attr_list
   - md_in_html
