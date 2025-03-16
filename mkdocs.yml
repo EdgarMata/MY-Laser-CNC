@@ -1,15 +1,18 @@
+# Project information
 site_name: MY-Laser-CNC
-
 site_url: "https://my-machines.net/My-Laser-CNC/"
-#site_autor: "Edgar Mata"
+site_author: "Edgar Mata"
 site_description: "Centro de conhecimento My Machines"
 
+# Repository
 repo_name: "MY-Laser-CNC"
 repo_url: "https://github.com/EdgarMata/MY-Laser-CNC"
 
+# Copyright
 copyright: |
   &copy; 2024 <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a>
 
+# Configuration
 theme:
   logo: assets/mylogo.svg
   favicon: images/favicon.png
