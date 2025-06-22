@@ -1,0 +1,122 @@
+# Project Information
+site_name: MY-Laser-CNC
+site_url: "https://my-machines.net/My-Laser-CNC/"
+site_author: "Edgar Mata"
+site_description: "Centro de conhecimento My Machines"
+
+# Repository
+repo_name: "MY-Laser-CNC"
+repo_url: "https://github.com/EdgarMata/MY-Laser-CNC"
+
+# Copyright
+copyright: |
+  &copy; 2024 <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a>
+
+# Configuration
+theme:
+  logo: assets/mylogo.svg
+  favicon: images/favicon.png
+  name: material
+  features:
+    - navigation.tabs
+#   - navigation.sections
+    - navigation.path
+    - navigation.expand
+    - navigation.footer 
+    - toc.follow  
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy        
+  language: pt
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Preferencias de sistema
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Mudar para modo escuro
+      primary: light blue
+      accent: indigo
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Mudar para modo Claro
+      primary: light blue
+      accent: indigo
+
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16     
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/EdgarMata
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/profile.php?id=61550788541239
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/gadgetplusoficial/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contacto@gadgetplus.pt
+  analytics:
+    provider: google
+    property: G-B2Y6R89EJ9
+    feedback:
+      title: Esta pagina ajudou?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Esta pagina ajudou
+          data: 1
+          note: >-
+            Obrigado pelo feedback!
+        - icon: material/thumb-down-outline
+          name: Esta pagina pode melhorar
+          data: 0
+          note: >- 
+            Obrigado pelo feedback! Ajuda-nos a melhorar esta pagina
+            usando o nosso <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_kuzfD_Tbez4b-jqxr0dPAsu4QGP72imTuG0AKUAi-gQKLg/viewform?usp=pp_url&entry.756152555={url}" target="_blank" rel="noopener">formulario de feedback</a>.     
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - toc:
+      permalink: true
+      title: Tabela de Conteudo
