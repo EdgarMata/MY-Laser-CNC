@@ -76,11 +76,11 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/EdgarMata
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/profile.php?id=61550788541239
+      link: https://www.facebook.com/MyMachinesNet
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/gadgetplusoficial/
     - icon: fontawesome/solid/paper-plane
-      link: mailto:contacto@gadgetplus.pt
+      link: mailto:geral@my-machines-net
   analytics:
     provider: google
     property: G-B2Y6R89EJ9
