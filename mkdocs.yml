@@ -9,8 +9,8 @@ repo_name: "MY-Laser-CNC"
 repo_url: "https://github.com/EdgarMata/MY-Laser-CNC"
 
 # Copyright
-copyright: |
-  &copy; 2024 <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a>
+# copyright: '&copy; 2025 <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a> by Edgar Mata'
+copyright: '&copy; 2022 - <span id="current-year"></span> <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a> by Edgar Mata'
 
 # Configuration
 theme:
@@ -76,9 +76,9 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/EdgarMata
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/MyMachinesNet
+      link: https://www.facebook.com/machines.net/
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/gadgetplusoficial/
+      link: https://www.instagram.com/mymachines_net/
     - icon: fontawesome/solid/paper-plane
       link: mailto:geral@my-machines-net
   analytics:
