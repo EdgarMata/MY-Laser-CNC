@@ -79,8 +79,12 @@ extra:
       link: https://www.facebook.com/machines.net/
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/mymachines_net/
+    - icon: fontawesome/brands/pinterest
+      link: https://pt.pinterest.com/machines_net
+    - icon: fontawesome/brands/tick-tock
+      link: https://www.tiktok.com/@machines_net
     - icon: fontawesome/solid/paper-plane
-      link: mailto:geral@my-machines-net
+      link: mailto:geral@my-machines.net
   analytics:
     provider: google
     property: G-B2Y6R89EJ9
